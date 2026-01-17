@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework Helper Free AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Homework Helper Free AI</h1>
+    <p>Upload your homework photo and see AI answers!</p>
+
+    <div class="upload-box">
+      <input type="file" id="photo" accept="image/*">
+      <label for="photo">Click to upload homework photo</label>
+    </div>
+
+    <button class="button" id="solveBtn">Do My Homework</button>
+
+    <div class="note">
+      * Demo only — uses free AI chat embed
+    </div>
+
+    <div class="result" id="result"></div>
+
+    <!-- Embed Free AI Chat tool via iframe -->
+    <h2>AI Chat Widget (Free)</h2>
+    <div class="ai-widget">
+      <iframe src="https://aiforfree.online/tools/chat" width="100%" height="500px" style="border:1px solid #ccc;"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
